@@ -1077,14 +1077,11 @@ audio {
 
 
 .balloons {
-	position: fixed;
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
 	width: 50px;
 	height: 103px;
-	display: flex;
-	flex-direction: column;
 	background-repeat: no-repeat no-repeat;
 	background-size: 50px 103px;
 }
