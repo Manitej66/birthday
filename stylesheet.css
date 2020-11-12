@@ -1075,28 +1075,6 @@ audio {
 	}
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  
-  .balloons {
-	position: fixed;
-	bottom: -200px;
-	opacity: 0.6;
-	z-index: 99;
-	width: 50px;
-	height: 100px;
-	background-repeat: no-repeat no-repeat;
-	background-size: 50px 100px;
-}
-.balloons h2 {
-	text-transform: uppercase;
-	font-family: 'Signika', sans-serif;
-	font-size: 30px;
-	color: #BF4136;
-	text-shadow: 5px 5px 5px #FFF;
-	display: none;
-}
-  
-}
 
 .balloons {
 	position: fixed;
@@ -1105,6 +1083,8 @@ audio {
 	z-index: 99;
 	width: 100px;
 	height: 183px;
+	display: flex;
+	flex-direction: column;
 	background-repeat: no-repeat no-repeat;
 	background-size: 100px 183px;
 }
